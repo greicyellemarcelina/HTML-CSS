@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.painel-geral {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    left: calc(50% - 400px);
+    top: calc(50% - 250px);
+    box-shadow: 0 10px 6px -6px #8B795E;
+}
+
+.painel-esquerda {
+    width: calc(900px - 50%);
+    height: 500px;
+    background: red;
+    border: 1px;
+    float: left;
+}
+
+.painel-direita {
+    width: calc(900px - 50%);
+    height: 500px;
+    background: #3D2922;
+    border: 1px;
+    float: right;
+
+}
+
+.bloco-1 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: purple;
+    float: left;
+
+
+}
+
+.bloco-2 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: burlywood;
+    float: right;
+
+}
+
+.bloco-3 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: seagreen;
+    float: right;
+
+}
+
+.bloco-4 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: salmon;
+    float: left;
+
+}
+.bloco-5 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: sienna;
+    float: left;
+
+}
+.bloco-6 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: teal;
+    float: left;
+
+}
+.bloco-7 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: turquoise;
+    float: left;
+
+}
+.bloco-8 {
+    width: calc(450px - 50%);
+    height: calc(500px - 50%);
+    background: violet;
+    float: left;
+
+}
